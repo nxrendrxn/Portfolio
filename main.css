@@ -1,105 +1,111 @@
 @font-face {
-    font-family: phonk;
-    src: url(phonk.ttf.otf);
+  font-family: phonk;
+  src: url(phonk.ttf.otf);
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.header{
-    top: 50%;
-    width: 100%;
-    min-height: 100vh;
-    background-image: url(umbra-03.jpeg);
-    background-position: center;
-    background-size:cover;
-    position: relative;
+.header {
+  top: 50%;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(umbra-03.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
-nav{
-    display: flex;
-    padding: 2%;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  padding: 2%;
+  justify-content: space-between;
+  align-items: center;
 }
-.links{
-    flex: 1;
-    text-align: center;
+.links {
+  flex: 1;
+  text-align: center;
 }
-.links ul li{
-    font-family: phonk;
-    list-style-type: none;
-    padding: 2% 4%;
-    display: inline-block;
-    position: relative;
+.links ul li {
+  font-family: phonk;
+  list-style-type: none;
+  padding: 2% 4%;
+  display: inline-block;
+  position: relative;
 }
-.links ul li a{
-    color: #B8b7b7;
-    text-decoration: none;
-    font-size: 13px;
+.links ul li a {
+  color: #b8b7b7;
+  text-decoration: none;
+  font-size: 13px;
 }
-.text{
-    width: 90%;
-    color: #B8b7b7;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+.text {
+  width: 90%;
+  color: #b8b7b7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
-h1{
-    color: #B8b7b7;
-    font-family: phonk;
-    font-size: 75px;
+h1 {
+  color: #b8b7b7;
+  font-family: phonk;
+  font-size: 75px;
 }
-.abt{
-    top: 50%;
-    width: 100%;
-    min-height: 100vh;
-    background-image: url(umbra-06.jpeg);
-    background-position: center;
-    background-size:cover;
-    position: relative;
+.abt {
+  top: 50%;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(umbra-06.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
-.abt h2{
-    color: #B8b7b7;
-    font-family: phonk;
-    font-size: 75px;
-    text-align: center;
-    padding-top: 5%;
+.abt h2 {
+  color: #b8b7b7;
+  font-family: phonk;
+  font-size: 75px;
+  text-align: center;
+  padding-top: 5%;
 }
-.abt p{
-    color: #B8b7b7;
-    font-family: phonk;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 5%;
-
+.abt p {
+  color: #b8b7b7;
+  font-family: phonk;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 5%;
 }
-.abt img{
-    width: 30%;
-    align-items: center;
-    padding-top: 5%;
-    padding-left: 35%;
+.abt img {
+  width: 30%;
+  align-items: center;
+  padding-top: 5%;
+  padding-left: 35%;
 }
-.PROJECTS{
-    top: 50%;
-    width: 100%;
-    min-height: 100vh;
-    background-image: url(umbra-03.jpeg);
-    background-position: center;
-    background-size:cover;
-    position: relative;
+.PROJECTS {
+  top: 50%;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(umbra-03.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
-.PROJECTS img{
-    width: 30%;
-    align-items: center;
-    padding-top: 5%;
-    padding-left: 35%;
+.PROJECTS h2 {
+  color: #b8b7b7;
+  font-family: phonk;
+  font-size: 75px;
+  text-align: center;
+  padding-top: 5%;
 }
-.PROJECTS h2{
-    color: #B8b7b7;
-    font-family: phonk;
-    font-size: 75px;
-    text-align: center;
-    padding-top: 5%;
+.center-container {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.column {
+  width: 30%;
+  margin: 0 10px;
+}
+.column img {
+  max-width: 100%;
+  height: auto;
 }
