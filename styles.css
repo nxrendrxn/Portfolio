@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'helvetica';
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    margin-top: 25px;
+    background-color: #131315;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 1240px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.navbar h1{
+    padding-left: 25px;
+    color: #ffe3b6;
+    font-size: 30px;
+}
+
+.navbar li{
+    padding-right: 25px;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ffe3b6;
+    font-weight: 100;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.intro{
+    background-color: #131315;
+    margin: 25px;
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.intro h1{
+    color: #ffe3b6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.nextdiv{
+    margin: 25px;
+    display: flex;
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.leftdiv{
+    display: flex;
+    background-color: #131313;
+    flex-grow: 1;
+    border-radius: 30px;
+}
+
+.rightdiv{
+    background-color: #131315;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightdiv video{
+    width: 600px;
+    border-radius: 25px;
+}
+
+.leftdiv h1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: linear-gradient(to right,#ffe3b6,#fefefe,#ffe3b6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 3s infinite linear;
+    font-size: 35px;
+}
+
+@keyframes hue {
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(-360deg);
+    }
+}
+
+.socials{
+    margin: 25px;
+    display: flex;
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1em;
+    justify-content: space-evenly;
+}
+
+.instagram, .linkedin, .spotify, .discord, .github{
+    width: 248px;
+    background-color: #131315;
+    border-radius: 30px;
+}
+
+.instagram h1, .linkedin h1, .spotify h1, .discord h1, .github h1{
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #ffe3b6;
+    font-size: 20px;
+}
+
+.instagram:hover{
+    width: 248px;
+    transition: 0.8s;
+    background-color: #de0443;
+    color: aliceblue;
+    border-radius: 30px;
+}
+
+.linkedin:hover{
+    width: 248px;
+    transition: 0.8s;
+    background-color: #0c64c5;
+    color: aliceblue;
+    border-radius: 30px;
+}
+
+.spotify:hover{
+    width: 248px;
+    transition: 0.8s;
+    color: aliceblue;
+    background-color: #1ed760;
+    border-radius: 30px;
+}
+
+.discord:hover{
+    width: 248px;
+    transition: 0.8s;
+    background-color: #5865f2;
+    color: aliceblue;
+    border-radius: 30px;
+}
+
+.github:hover{
+    width: 248px;
+    transition: 0.8s;
+    color: aliceblue;
+    background-color: #364975;
+    border-radius: 30px;
+}
+
+.education{
+    background-color: #131315;
+    width: 1240px;
+    height: 600px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eduins{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cps, .mit, .iit{
+    background-color: #ffe3b6;
+    width: 350px;
+    height: 450px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cps img, .mit img, .iit img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+.edu{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffe3b6;
+}
+
+.eduins h1{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: #131315;
+}
+
+.eduins h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #131315;
+}
+
+.eduins h3{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: #131315;
+}
+
+.hmm{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.loc{
+    margin-top: 25px;
+    display: flex;
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    gap: 1em;
+}
+
+.location{
+    background-color: #131315;
+    border-radius: 25px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.location img{
+    padding-top: 80px;
+    width: 90px;
+    height: 90px;
+}
+
+.desc{
+    background-color: #131315;
+    border-radius: 25px;
+    flex-grow: 2;
+}
+
+.location h1{
+    display: flex;
+    align-items: center;
+}
+
+.loc h1{
+    color: #ffe3b6;
+    font-size: 30px;
+}
+
+.desc h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact{
+    background-color: #131315;
+    width: 1240px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1{
+    color: #ffe3b6;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.buttonn{
+    margin-top: 50px;
+    width: 400px;
+    height: 100px;
+    background-color: #ffe3b6;
+    border-radius: 25px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.buttonn a{
+    text-decoration: none;
+    color: #131315;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px) {
+
+    .navbar{
+        margin-top: 25px;
+        background-color: #131315;
+        border-radius: 2px;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 30px;
+        width: 400px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .navbar h1{
+        margin-left: 112px;
+        color: #ffe3b6;
+        font-size: 25px;
+    }
+    
+    .navbar li{
+        padding-right: 25px;
+        list-style: none;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        color: #ffe3b6;
+        font-weight: 100;
+        margin: 15px;
+        font-size: 0px;
+    }
+
+    .intro{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro h1{
+        color: #ffe3b6;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .nextdiv{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column-reverse;
+    }
+
+    .leftdiv{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .leftdiv h1{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background: linear-gradient(to right,#ffe3b6,#fefefe,#ffe3b6);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: hue 3s infinite linear;
+        font-size: 35px;
+    }
+
+    .rightdiv{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rightdiv video{
+        width: 400px;
+        border-radius: 25px;
+    }
+
+    .socials{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .instagram, .linkedin, .spotify, .discord, .github{
+        width: 190px;
+        background-color: #131315;
+        border-radius: 30px;
+    }
+
+    .loc{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        gap: 1.5625em;
+    }
+
+    .location{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    .location img{
+        padding-bottom: 75px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .desc{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .education{
+        width: 400px;
+        height: 1550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .eduins{
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .cps, .mit, .iit{
+        background-color: #ffe3b6;
+        width: 350px;
+        height: 450px;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .buttonn{
+        margin-top: 50px;
+        width: 300px;
+        height: 50px;
+        background-color: #ffe3b6;
+        border-radius: 25px;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    
+    .buttonn a{
+        text-decoration: none;
+        color: #131315;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        justify-content: center;
+        align-items: center;
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+}
+
+
